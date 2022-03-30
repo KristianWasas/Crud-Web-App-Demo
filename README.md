@@ -5,14 +5,13 @@ Joo elikkäs tässä on nyt dynamic database webappi, osa vaadituista kriteereis
 
 Perus rakenne on siis React.js frontend, node.js backend, Express, Axios ja cors linkkaamaan frontend ja backend ja server 
 
-Database MariaDB 
+Database mySQL 
 
-Pyörittämiseen en osaa tarkkaan sanoa mitä tarvii, luulen että tässä on kaikki tarvittava ladattu mukana, käytin myös XAMPP:ia
-mariaDB varten jotta pysty selaimella vilkuileen databasea yms.
+Pyörittämiseen en osaa tarkkaan sanoa mitä tarvii, luulen että tässä on kaikki tarvittava ladattu mukana paitsi XAMPP (voi varmaankin olla jokin muu työkalu) joka oli
+mySQL varten jotta pysty selaimella vilkuileen databasea yms.
 
-npm start komennolla saa front endin ja backendin pystyyn, täytyy myös erikseen luoda database ennenkun lähtee pyörimään,
-eli selaimeen vaan "localhost:3001/createdb" joka luo automaattisesti "nodemysql" nimisen database
-Sitten vaan "localhost:3000" ja pitäisi pyöriä, jos ei, niin en osaa suoraa sanoa mitä tarvii ladata/korjata
+Eka XAMPP pystyyn, start Apache ja MySQL, sittennpm start komennolla saa front endin ja backendin pystyyn, täytyy myös erikseen luoda database ennenkun lähtee pyörimään, eli selaimeen vaan "localhost:3001/createdb" joka luo automaattisesti "nodemysql" nimisen database
+Sitten vaan "localhost:3000" ja pitäisi pyöriä, jos ei, niin en osaa suoraa sanoa mitä tarvii ladata/korjata, itellä toimii fine
 
 Mitä toiminnalisuuksia on:
 
