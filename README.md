@@ -52,4 +52,4 @@ Mitä itse koodattu:
     -/server/index.js
 
     
-Loput on ladattui dependancei ja frameworkkei yms.
+Loput on ladattui dependancei ja frameworkkei yms
